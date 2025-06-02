@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;Add commentMore actions
+    font-family: "Inter", sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -20,8 +20,7 @@ body {
     background-color: var(--almost-white);
 }
 
-
-body.menu-open::before {
+body.escurecer::before  {
     content: "";
     position: fixed;
     height: 100vh;
@@ -32,7 +31,7 @@ body.menu-open::before {
 }
 
 .header-mobile {
-    display: flex;Add commentMore actions
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
@@ -44,11 +43,10 @@ body.menu-open::before {
     width: fit-content;
 }
 
-More actions
 .header-mobile nav {
     position: fixed;
     background-color: var(--almost-white);
-    right: 0;
+     right: -16rem;
     top: 0;
     height: 100vh;
     width: 16rem;
@@ -58,6 +56,13 @@ More actions
     flex-direction: column;
     padding: 1.5rem;
     gap: 1.5rem;
+
+
+    transition: 0.7s;
+}
+
+.header-mobile nav.abrir {
+    right: 0;
 }
 
 .header-mobile nav button {
@@ -141,7 +146,6 @@ More actions
     line-height: 1.625rem;
 }
 
-More actions
 .terceira-secao > div{
     display: flex;
     align-items: center;
