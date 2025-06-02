@@ -79,6 +79,10 @@ header .mobile nav a{
     line-height: 1.5rem;
 }
 
+header .desktop {
+    display: none;
+}
+
 main {
     max-width: 1110px;
     margin-inline: auto;
