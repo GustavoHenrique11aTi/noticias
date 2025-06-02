@@ -36,7 +36,7 @@ header {
     align-items: center;
     margin-bottom: 2rem;
 
-      max-width: 1110px;A
+      max-width: 1110px;
       margin-inline: auto;    
 }
 
@@ -79,7 +79,7 @@ header .mobile nav a{
     line-height: 1.5rem;
 }
 
-main {A
+main {
     max-width: 1110px;
     margin-inline: auto;
 }
@@ -194,6 +194,27 @@ main {A
 
     .primeira-secao {
         grid-column: 1 / 3;
+
+         display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.75rem;
+    }
+
+    .primeira-secao picture {
+        grid-column: 1 / 3;
+    }
+
+    .primeira-secao img {
+        margin: 0;
+    }
+
+    .primeira-secao h1 {
+        font-size: 2.5rem;
+    }
+
+    .segunda-secao h2 {
+        font-size: 2.5rem;
+    
     }
 
     header > button {
